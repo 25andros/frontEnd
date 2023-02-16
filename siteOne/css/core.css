@@ -1,0 +1,78 @@
+body {
+  background-color: sandybrown;
+  color: #000;
+  width: 48rem;
+  padding-bottom: 2rem;
+  margin: 0.5rem;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1em;
+  display: flex;
+}
+
+h1,
+h2,
+p {
+  font-style: oblique;
+  color: forestgreen;
+}
+
+button {
+  display: flex;
+}
+
+* CLASSES */ .talks {
+  padding: 1.5rem;
+  border: green solid 0.5rem;
+  margin: 0.75rem;
+  /* border-radius: 1rem;
+	border-style: dashed;
+	border-color: forestgreen; */
+}
+
+.vizuals {
+  padding: 1rem;
+  border: 0.75rem orange dashed;
+  margin: none;
+}
+
+.blocks {
+  /* padding:; */
+  background-color: green;
+  border: solid yellow 5px;
+}
+
+/*		ID's	*/
+
+#goals img {
+  width: 13rem;
+  margin: 0.5rem;
+}
+
+#advice {
+  text-decoration: underline;
+}
+
+#advice q {
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+#advice > ol > li {
+  size: 0.75rem;
+  list-style: lower-roman;
+}
+
+#Personal-Links {
+  background-color: orange;
+}
+
+#looking video {
+  width: 46rem;
+  border: black solid 1rem;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript and event handling - Example #1</title>
+
+<script>
+var field, theDiv;
+
+function init() {
+  console.log("page loaded and DOM is ready");
+  field = document.querySelector("#inputField");
+  theDiv = document.querySelector("#theDiv");
+}
+
+// The next function is called each type a key has been
+// typed in the input field
+function showWhatWeTyped() {
+  // fill the div with the content of the input field
+  theDiv.innerHTML = field.value;
+}
+
+
+</script>
+</head>
+<body onload="init();">
+
+  <p>Type some text in this input field :
+  <input type="text" oninput="showWhatWeTyped();" id="inputField" /></p>
+    <p>
+  You are typing:
+  </p>
+  <div id="theDiv">
+  </div>
+</body> 
+</html>

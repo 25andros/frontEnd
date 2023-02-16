@@ -1,0 +1,79 @@
+html {
+	background-color: gray;
+}
+
+body {
+	background-color: darkslategrey;
+	/* background-color: papayawhip; */
+	color: #000;
+	width: 48rem;
+	padding-bottom: 2rem;
+	margin: .5rem;
+}
+
+h1 {
+	font-style: italic;
+	font-size: 3rem;
+	color: black;
+	text-align: center;
+	padding: 1rem;
+}
+
+h2 {
+	font-style: oblique;
+	color: forestgreen;
+}
+
+/*	CLASSES	*/
+
+.talks {
+	padding: 1.5rem;
+	border: green solid .5rem;
+	margin: .75rem;
+	/* border-radius: 1rem;
+	border-style: dashed;
+	border-color: forestgreen; */
+}
+
+.vizuals {
+	padding: 1rem;
+	border: .75rem orange dashed;
+	margin: none;
+}
+
+/*		ID's	*/
+
+#goals img {
+	width: 13rem;
+	margin: .5rem;
+}
+
+#advice {
+	text-decoration: underline;
+}
+
+#advice q {
+	font-size: x-large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: italic;
+}
+
+#advice > ol > li {
+	size: .75rem;
+	list-style: lower-roman;
+}
+
+#Personal-Links {
+	background-color: orange;
+}
+
+#looking video {
+	width: 46rem;
+	border: black solid 1rem;
+}
+
+.blocks {
+	/* padding:; */
+	background-color: green;
+	border: solid yellow 5px;
+}

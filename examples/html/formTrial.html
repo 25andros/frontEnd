@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+  <body>
+    <section>
+      <h2>Forms</h2>
+
+      <!-- <form id="frm1" action="/action_page.php">
+        First name: <input type="text" name="fname" /><br />
+        Last name: <input type="text" name="lname" /><br /><br />
+        <input type="button" onclick="myFunction()" value="Submit" />
+      </form> -->
+
+      <form action="../post/results.html" method="GET" , name="sendIt">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="userName" />
+          </li>
+
+          <li>
+            <label name="emailAddress" type="email" for="email">Email:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="userName@mail.com"
+            />
+          </li>
+
+          <li>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="pass" />
+          </li>
+
+          <li>
+            <label name="message" for="msg">message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+
+          <button type="reset">reset</button>
+          <button type="submit">Submit</button>
+        </ul>
+      </form>
+    </section>
+    <!-- <div></div> -->
+
+    <footer>
+      <h2>Site Navigation</h2>
+      <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="about.html">About the Dev</a></li>
+        <li><a href="https://github.com/25andros">GitHub</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+div {
+	margin-bottom: 50px;
+	height: px;
+	max-height: 1000px;
+	border: #49274a solid 10px;
+}
+
+form {
+	padding: 30px;
+	width: 500px;
+}
+
+/* Bad Design */
+#uglyForm input {
+	border: 0px;
+}
+#uglyForm button {
+	background-color: white;
+	border: 0px;
+}
+/* DESIGN 1 */
+#form1 {
+	background-color: #5e0231;
+	font-family: Arial;
+	color: #dbc3d0;
+}
+
+#form1 h1 {
+	color: white;
+	margin: 0px 0px 20px 0px;
+}
+
+#form1 input {
+	background-color: #dbc3d0;
+	border: 2px white solid;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+#form1 input:hover,
+#form1 input:focus {
+	border: 2px #dbc3d0 solid;
+	background-color: white;
+}
+#form1 button:hover {
+	background-color: #dbc3d0;
+	color: white;
+}
+
+#form1 button {
+	background-color: white;
+	border: 3px #dbc3d0 solid;
+	border-radius: 5px;
+	color: #5e0231;
+	padding: 10px 30px;
+	font-size: 1.2em;
+}
+
+#form1 button {
+	color: aqua;
+	background-color: darkblue;
+	border-radius: 122px;
+	/* align-items: center; */
+}
+
+#form1 button:hover {
+	color: lime;
+	background-color: orange;
+}
+
+/* DESIGN 2 */
+#form2 {
+	background-color: #49274a;
+	font-family: Tahoma;
+	font-variant: small-caps;
+}
+
+#form2 h1 {
+	color: white;
+}
+
+#form2 input {
+	background-color: #49274a;
+	border: 1px #828081 solid;
+	padding: 10px;
+	color: #828081;
+	font-variant: small-caps;
+	margin-bottom: 20px;
+	width: 200px;
+}
+
+#form2 input:hover,
+#form1 input:focus {
+	border: 1px #94618e solid;
+	color: #94618e;
+}
+
+#form2 button {
+	background-color: #94618e;
+	border: 0px;
+	color: white;
+	font-size: 0.9em;
+	padding: 10px 20px;
+	font-variant: small-caps;
+	width: 225px;
+}
+
+/* DESIGN 3 */
+#form3 {
+	background-color: #caebf2;
+	font-family: 'Century Gothic';
+}
+
+#box {
+	background-color: white;
+	border-radius: 21px;
+	margin: 21px;
+	text-align: center;
+	/* width: 500px; */
+	min-width: 100px;
+}
+
+#form3 h1 {
+	color: #ff3b3f;
+	text-align: center;
+	margin: 0px;
+}
+
+#form3 input {
+	border: 0px;
+	border-bottom: 1px #a9a9a9 dashed;
+	padding: 10px;
+	color: #a9a9a9;
+	width: 80%;
+	margin: 10px;
+	font-family: 'Century Gothic';
+}
+
+#form3 input:focus,
+#form3 input:hover {
+	border: 1px #ff3b3f solid;
+}
+
+#form3 button {
+	background-color: #ff3b3f;
+	border: 4px #49274a dotted;
+	border-radius: 21px;
+	color: white;
+	color: black;
+	font-size: 0.9em;
+	padding: 10px 20px;
+	margin: 20px;
+	width: 85%;
+	font-family: 'Century Gothic';
+}

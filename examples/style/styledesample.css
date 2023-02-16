@@ -1,0 +1,147 @@
+/* La nome della file e style della sample. */
+
+body {
+	background-color: darkgoldenrod;
+}
+
+#UorD {
+	background-color: lightblue;
+	margin: 1em;
+	width: 211px;
+}
+
+#UorD:hover {
+	background-color: orange;
+}
+
+#UorDBox {
+	border: limegreen solid;
+}
+
+ul {
+	float: left;
+}
+
+#logo {
+	float: right;
+}
+/*
+html{
+    background-color: darkslategray;
+}
+
+
+h1, h2{
+
+    text-align: center;
+    font: 'AmstelvarAlpha';
+    font-style: oblique 40deg;
+}
+
+p{
+    margin: 5em;
+    border: orange solid 1px;
+    padding: 3px;
+    /* display: inline-block; 
+} 
+*/
+
+/* -------------------------------- */
+
+/* body {
+	background-color: #efefef;
+	color: #a9a9a9;
+	font-family: "Book Antiqua", serif;
+}
+
+h1 {
+	color: #ff3b3f;
+}
+
+h2 {
+	position: relative;
+	left: 2em;
+}
+
+div {
+	background-color: #caebf2;
+	width: 80%;
+	position: relative;
+	left: 6em;
+}
+
+h3 {
+	color: #ff3b3f;
+}
+
+p {
+	width: 90%;
+} */
+
+/* ------------------------------ */
+/* 
+html {
+	background-color: rgb(209, 209, 169);
+}
+h1 {
+	color: red;
+	background-color: lightGreen;
+	border: 12px solid violet;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+p,
+h1 {
+	font-family: cursive;
+}
+
+p,
+img,
+button {
+	margin-left: 50px;
+}
+
+#decide {
+	background-color: orange;
+	border: 9px purple dotted;
+}
+
+#decide:hover {
+	background-color: yellow;
+}
+
+#decide:active {
+	background-color: red;
+}
+
+#weather-button {
+	margin: 10px 15px;
+	border: blue 5px solid;
+	width: 35%;
+	display: block;
+}
+
+#weather {
+	position: relative;
+	left: 4em;
+	background-color: lightblue;
+} */
+
+video#bgvid {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
+}
