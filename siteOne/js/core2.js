@@ -1,5 +1,3 @@
-
-
 function randomNumber(upperBoundNumber) {
   return Math.floor(Math.random() * upperBoundNumber) + 1;
 }
@@ -10,15 +8,30 @@ function parleDue(place, dimoi) {
   return dimoi;
 }
 
+function buildNode(section, para, dialogue) {
+  const pGraph = document.getElementById(section);
+  const lineSay = document.createElement(para);
+  const speaksz = document.createTextNode(dialogue);
+
+  pGraph.appendChild(lineSay).appendChild(speaksz);
+}
+
+function buildNodeStatic() {
+  //"nodes" is the id of the element I'm putting withing...
+  const pGraph = document.getElementById("nodes");
+  const lineSay = document.createElement("p");
+  const speaksz = document.createTextNode("Build Node created!!!");
+
+  pGraph.appendChild(lineSay).appendChild(speaksz);
+}
 
 //interesting passage
-      const resultsList = document.getElementById("results");
-      new URLSearchParams(window.location.search).forEach((value, name) => {
-        resultsList.append(`${name}:${value}`);
+const resultsList = document.getElementById("results");
+new URLSearchParams(window.location.search).forEach((value, name) => {
+  resultsList.append(`${name}:${value}`);
 
-        resultsList.append(document.createElement("br"));
-      });
-
+  resultsList.append(document.createElement("br"));
+});
 
 //2D arrays
 

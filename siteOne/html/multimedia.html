@@ -3,22 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <title>Multmedia of interest</title>
-    <link rel="stylesheet" href="../css/site.css">
+    <link rel="stylesheet" href="../css/site.css" />
   </head>
-  <body>
-    <h2 class="talk">Music</h2>
 
-    <audio src="../media/audio/Leolife - Control Rip (Arcalis Remix).mp3" controls autoplay> Error in loading
+  <style>
+    html {
+      background-color: grey;
+    }
+  </style>
+  <body>
+    <h1>Music Drop</h1>
+
+    <h2 class="talk">Info</h2>
+    <p>
+      Here's a small dump of some Multmedia that I have around here. Control by
+      Leolife is in .flac form.
+    </p>
+
+    <audio
+      src="../media/audio/Leolife-Control_(Arcalis_Remix).flac"
+      controls
+      autoplay
+    >
+      Error in loading
     </audio>
 
+    <h2 class="beep">Film</h2>
+
     <video controls>
-
-    <h2 class="beep">Film</h1>
- 
-        <source src="../media/videos/anime.mp4" type="video/mp4" />
+      <source src="../media/videos/anime.mp4" type="video/mp4" />
+      <track src="../media/videos/firstsub.vtt" kind="captions" default />
     </video>
-    <track src="../media/videos/firstsub.vtt" kind="captions" default />
-    </video>
-
- </body>
+  </body>
 </html>

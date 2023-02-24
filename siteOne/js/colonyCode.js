@@ -5,14 +5,29 @@ window.onload = init;
 let x = 10;
 let choice = 1;
 let str;
-
 let item = "current";
 let sayz = "ozzie mates!!!";
 
+let simple = [];
 //Functions
 
 function init() {
   console.log("INITIATED");
+}
+
+function curStatus() {
+  simple[0] = choice;
+  simple[1] = x;
+  console.log(simple);
+}
+
+function onePlus() {
+  console.log("choice is " + choice);
+  choice += 1;
+  if (choice > 3) {
+    choice = 1;
+  }
+  return "choice is now " + choice;
 }
 
 function trial() {
@@ -87,15 +102,6 @@ function oneMore(alpha) {
   console.log("choice is " + alpha);
   return alpha;
 }
-function onePlus() {
-  console.log("choice is " + choice);
-  choice += 1;
-  if (choice > 3) {
-    choice = 1;
-  }
-
-  return "choice is now " + choice;
-}
 
 function turn() {
   let dice = rollDie(4);
@@ -115,7 +121,7 @@ function turn() {
       x = 10;
       break;
     default:
-          console.log("You cheated!!!");
+      console.log("You cheated!!!");
       return parleDue("navi", "You cheated");
   }
 
@@ -128,11 +134,9 @@ function rollDie(numOfSides) {
   return roll;
 }
 
-function randomNumber(upperBoundNumber){
-return  Math.floor(Math.random()*upperBoundNumber)+1;
+function randomNumber(upperBoundNumber) {
+  return Math.floor(Math.random() * upperBoundNumber) + 1;
 }
-
-
 
 const item1 = document.getElementById("jesus");
 item1.addEventListener("click", () => alpha());
@@ -142,7 +146,3 @@ swt.addEventListener("click", () => onePlus(choice));
 
 const goIt = document.getElementById("turns");
 goIt.addEventListener("click", () => turn());
-
-
-
-
