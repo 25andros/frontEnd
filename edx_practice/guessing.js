@@ -1,9 +1,12 @@
+
 const makeIt = document.getElementById("tell");
 
 function init() {
   console.log("INIT done.");
   //start button to play game
   const go = document.getElementById("start");
+	const p1= document.getElementById("p1");
+	const p2= document.getElementById("p2");
   go.addEventListener("click", () => setupGame());
 }
 
@@ -11,12 +14,12 @@ function setupGame() {
   createInputBox();
   createEnterButton();
   hidden = randomNumber(7);
-    rollThru();
-/*
     gameAction = subGuessButton.addEventListener(
-rollThru()
+"click",()=> rollThru()
     );
-*/
+	
+  p1.innerHTML = ("pick a # between 1 & 7");
+  console.log("pick a # between 1 & 7");
 }
 
 function createInputBox() {
@@ -33,31 +36,39 @@ function createEnterButton() {
   const inGo = document.getElementById("inputz");
   const sumbitGuess = document.createElement("button");
   inGo.appendChild(sumbitGuess).setAttribute("id", "subGuessButton");
+	//submitGuess.innerHTML = "ENTER HERE";
+
+	//let frank= createTextNode("Submit Guess"); submitGuess.appendChild(frank); 
+	
 }
 
 function rollThru() {
 
-  console.log("pick a # between 1 & 7");
 
-    while (guess!==hidden){
-    if (guess===hidden ) onTheMoney();
-
-    (guess>hidden) ? highSelection : lowSelection;
-
+    if (guess.value==hidden) 
+	{onTheMoney();
+		//break;
+	}
+	else{
+    (guess.value>hidden) ? highSelection() : lowSelection();
+	}
     
+//console.log("you be DONE888");
 }
-console.log("you be DONE888");
-}
+
 
 function onTheMoney(){
-    console.log("you win.");
+ p1.innerHTML =("winner, winner, chicken dinner!");
+	console.log("you win.");
 }
 
 function highSelection(){
+ p1.innerHTML = ("you're high. Pick lower.");
 console.log("you're high. Pick lower.");
 }
 
 function lowSelection(){
+ p1.innerHTML = ("you be low. Pick higher.");
     console.log("you be low. Pick higher.");
 }
 
