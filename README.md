@@ -1,37 +1,41 @@
-#Intro#
+# Intro
 
-	Hello all, this is just a sample upload of some HTML I've thrown together.
+    The following should be a bit of Js code, expect to see a bit of refactoring here and there.
 
+## Order:
 
-order:
-ssh how to use with git
-start posting to gitlab+hub
-custom vimscript :ls|./
+create a git bear repo of .vimrc and .zshrc for when I move around on pc's
+custom vimscript :ls|./**short-hand for window over**
 vim folds
 css - making menu bars to hide buttons...
 
-Battleship game:
-7x7 area
-place random 1*3 ship in area
+## Battleship game
+
+grabbing value from an array of array and storing as value
+pass array as parameter
+create ships as class, and functions to govern their placement
+2-dimensional input
+place random 1\*3 ship in area
 Graphical area for actual battleship game
 Css clean up, with flexbox
 
+## Class To Do:
 
-
-Class To Do:
 mdn basic assessment
 mdn mid assessment
 edx knockout sections 1-3
 mdn object basics
 Getters and setters
 
-Topics:
+## Topics:
+
 objects
 classes
 inheritance
 api's...
 
-Goal:
+## Goal:
+
 build my own apps
 build drivers
 
@@ -39,3 +43,6 @@ kde wallet
 kleopatra
 
 -Z
+
+[MD Guide](https://www.markdownguide.org/cheat-sheet/)
+[another guide](https://www.markdownguide.org/basic-syntax/)
