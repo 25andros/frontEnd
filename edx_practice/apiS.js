@@ -1,13 +1,32 @@
 let widthX, heightY;
+let j = 0;
+
+let sourceRepo = [
+  "../siteOne/media/videos/anime.mp4",
+  "../siteOne/media/videos/stol_vet.mp4",
+];
 
 function init() {
   console.log("0");
   const item1 = document.getElementById("start");
-  item1.addEventListener("click", () => makeFrame());
-  item1.addEventListener("click", () => makePlayer());
+
+  item1.addEventListener("click", () => buildPage());
   widthX = 500;
   heightY = 500;
   console.log("INIT");
+}
+
+function buildPage() {
+  makeInputBox();
+  //  makeFrame();
+  makePlayer();
+}
+
+function makeInputBox() {
+  //create input box
+  let inputBox = document.createElement("input");
+  document.body.appendChild(inputBox);
+  inputBox.id = "inputBOX";
 }
 
 //import OSS api
@@ -25,11 +44,6 @@ function makeFrame() {
   document.body.appendChild(inFrame);
 }
 
-let sourceRepo = [
-  "../siteOne/media/videos/anime.mp4",
-  "../siteOne/media/videos/stol_vet.mp4",
-];
-
 //import video player dynamically
 function makePlayer() {
   let inPlayer = document.createElement("video");
@@ -42,28 +56,68 @@ function makePlayer() {
 
   beans = document.getElementById("beans");
 
+//  inPlayer.addEventListener("ended", () => turnNext(), false);
+  inPlayer.addEventListener("click", () => turnNext());
+
   //Pause button
   let pauseButton = document.createElement("button");
 
-  pauseButton.addEventListener("click", () => beans.pause());
+  pauseButton.addEventListener("click", () => pausePlay());
+  pauseButton.id = "Pause&Play";
   document.body.appendChild(pauseButton);
 
-  //next button
-  let nextPlay = document.createElement("button");
+  //toStart button
 
+  let toStart = document.createElement("button");
+  toStart.addEventListener("click", () => toStartFx());
+  document.body.appendChild(toStart);
+  toStart.id = "START";
+
+  //nextVID button
+  let nextPlay = document.createElement("button");
+  nextPlay.id = "NEXT_VID";
   nextPlay.addEventListener("click", () => turnNext());
   document.body.appendChild(nextPlay);
+}
 
-  function turnNext() {
-    for (let i = 0; i < sourceRepo.length; i++) {
-      beans.src = sourceRepo[i++];
+let playStatus = 0;
 
-      if (sourceRepo[i] == 2) {
-        beans.src = sourceRepo[0];
-        break;
-      }
+function pausePlay() {
+  for (let i = 0; i <= 1; i++) {
+    if (playStatus == 1) {
+      beans.play();
+      playStatus = 0;
+      break;
     }
+    beans.pause();
+    playStatus += 1;
+    break;
   }
+}
+
+function turnNext() {
+  console.log("End of the video!");
+
+  for (let i = 0; i < sourceRepo.length; i++) {
+
+    if ((j == 1)) {
+      j = 0;
+      console.log("to 0");
+      break;
+    }
+    console.log("+1");
+    j += 1;
+    break;
+  }
+  beans.src = sourceRepo[j];
+  beans.load();
+  beans.play();
+  //    break;
+}
+
+function toStartFx() {
+  beans.currentTime = 0;
+  playStatus = 0;
 }
 
 window.onload = init();
