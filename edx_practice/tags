@@ -1,0 +1,116 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+PEAT	../examples/repoJs/examples.js	/^function PEAT() {$/;"	f
+TorF	../examples/js/scriptdesample.js	/^function TorF() {$/;"	f
+addSomeText	../examples/js/scriptdesample.js	/^function addSomeText() {$/;"	f
+age	../examples/repoJs/examples.js	/^  age: 23,$/;"	p	class:student1
+alpha	../siteOne/js/colonyCode.js	/^function alpha() {$/;"	f
+bX	../siteOne/js/colonyCode.js	/^function bX() {$/;"	f
+beta	../siteOne/js/colonyCode.js	/^function beta() {$/;"	f
+buildNode	../edx_practice/guessing.js	/^function buildNode(section, para, dialogue) {$/;"	f
+buildNode	../siteOne/js/core2.js	/^function buildNode(section, para, dialogue) {$/;"	f
+buildNodeStatic	../siteOne/js/core2.js	/^function buildNodeStatic() {$/;"	f
+buildPage	../edx_practice/apiS.js	/^function buildPage() {$/;"	f
+buildRay	../game/ships.js	/^function buildRay(size) {$/;"	f
+changeMath	../examples/js/scriptdesample.js	/^function changeMath() {$/;"	f
+changeStyle	../examples/html/csschange.html	/^function changeStyle() {$/;"	f
+charlie	../siteOne/js/colonyCode.js	/^function charlie() {$/;"	f
+city	../examples/repoJs/examples.js	/^  city: "New York",$/;"	p	class:student1
+clearConsole	../examples/js/scriptdesample.js	/^function clearConsole() {$/;"	f
+clearTxt	../examples/repoJs/formMake.js	/^function clearTxt() {$/;"	f
+colour	../siteOne/js/core2.js	/^  colour: "slate",$/;"	p	class:let
+compareGuessToRay	../game/ships.js	/^function compareGuessToRay() {$/;"	f
+createEnterButton	../edx_practice/guessing.js	/^function createEnterButton() {$/;"	f
+createInputBox	../edx_practice/guessing.js	/^function createInputBox() {$/;"	f
+curStatus	../siteOne/js/colonyCode.js	/^function curStatus() {$/;"	f
+doArc	../examples/js/scriptdesample.js	/^function doArc() {$/;"	f
+doDraw	../examples/js/scriptdesample.js	/^function doDraw(a, z) {$/;"	f
+doMath	../examples/js/scriptdesample.js	/^function doMath(a, b) {$/;"	f
+doSpecial	../examples/js/scriptdesample.js	/^function doSpecial() {$/;"	f
+domath	../examples/repoJs/examples.js	/^function domath(x) {$/;"	f
+drawFilledRectangle	../examples/js/scriptdesample.js	/^function drawFilledRectangle(x, y, w, h, fillColor, strokeColor, lw, angle) {$/;"	f
+drawFrame	../examples/js/scriptdesample.js	/^function drawFrame(xoff, yoff, colour, _angle) {$/;"	f
+drawRects	../examples/js/scriptdesample.js	/^function drawRects() {$/;"	f
+engine	../siteOne/js/core2.js	/^  engine: "2.8L diesel",$/;"	p	class:let
+expo	../examples/repoJs/examples.js	/^function expo(alf, bet) {$/;"	f
+first	../examples/repoJs/examples.js	/^function first(){$/;"	f
+forRand	../examples/repoJs/examples.js	/^function forRand() {$/;"	f
+formReset	../examples/repoJs/formMake.js	/^function formReset() {$/;"	f
+fullName	../examples/repoJs/examples.js	/^  fullName: "John Doe",$/;"	p	class:student1
+gform	../examples/repoJs/formMake.js	/^function gform() {$/;"	f
+giveHint	../game/ships.js	/^function giveHint() {$/;"	f
+grabTxt	../examples/repoJs/formMake.js	/^function grabTxt(formName) {$/;"	f
+highSelection	../edx_practice/guessing.js	/^function highSelection() {$/;"	f
+init	../edx_practice/apiS.js	/^function init() {$/;"	f
+init	../edx_practice/guessing.js	/^function init() {$/;"	f
+init	../examples/html/csschange.html	/^function init() {$/;"	f
+init	../examples/html/querysel.html	/^function init() {$/;"	f
+init	../examples/repoJs/examples.js	/^function init() {$/;"	f
+init	../game/ships.js	/^function init() {$/;"	f
+init	../siteOne/js/colonyCode.js	/^function init() {$/;"	f
+initCanvas	../examples/js/scriptdesample.js	/^function initCanvas() {$/;"	f
+loadEnemyShips	../game/ships.js	/^function loadEnemyShips() {$/;"	f
+lowSelection	../edx_practice/guessing.js	/^function lowSelection() {$/;"	f
+make	../siteOne/js/core2.js	/^  make: "GMC",$/;"	p	class:let
+makeBOX	../examples/repoJs/formMake.js	/^function makeBOX() {$/;"	f
+makeFrame	../edx_practice/apiS.js	/^function makeFrame() {$/;"	f
+makeInputBox	../edx_practice/apiS.js	/^function makeInputBox() {$/;"	f
+makeNoise	../siteOne/js/core2.js	/^    this.makeNoise = function () {$/;"	f
+makePlayer	../edx_practice/apiS.js	/^function makePlayer() {$/;"	f
+model	../siteOne/js/core2.js	/^  model: "canyon",$/;"	p	class:let
+movement	../examples/js/scriptdesample.js	/^function movement() {$/;"	f
+onTheMoney	../edx_practice/guessing.js	/^function onTheMoney() {$/;"	f
+oneMore	../siteOne/js/colonyCode.js	/^function oneMore(alpha) {$/;"	f
+onePlus	../siteOne/js/colonyCode.js	/^function onePlus() {$/;"	f
+parleDue	../siteOne/js/colonyCode.js	/^function parleDue(place, dimoi) {$/;"	f
+parleDue	../siteOne/js/core2.js	/^function parleDue(place, dimoi) {$/;"	f
+passThru	../siteOne/js/colonyCode.js	/^function passThru(str) {$/;"	f
+rX	../siteOne/js/colonyCode.js	/^function rX() {$/;"	f
+random	../siteOne/js/cssEdit.js	/^function random(number) {$/;"	f
+randomNumber	../edx_practice/guessing.js	/^function randomNumber(upperBoundNumber) {$/;"	f
+randomNumber	../game/ships.js	/^function randomNumber(upperBoundNumber) {$/;"	f
+randomNumber	../siteOne/js/colonyCode.js	/^function randomNumber(upperBoundNumber) {$/;"	f
+randomNumber	../siteOne/js/core2.js	/^function randomNumber(upperBoundNumber) {$/;"	f
+randy	../examples/repoJs/examples.js	/^function randy() {$/;"	f
+ray2	../examples/repoJs/examples.js	/^function ray2() {$/;"	f
+rayBuildTwoD	../game/ships.js	/^function rayBuildTwoD() {$/;"	f
+rayBuildTwoD	../siteOne/js/core2.js	/^function rayBuildTwoD() {$/;"	f
+rayBuildTwoD2	../game/ships.js	/^function rayBuildTwoD2(arrayName, arrayLength) {$/;"	f
+rayBuildTwoDv2	../siteOne/js/core2.js	/^function rayBuildTwoDv2() {$/;"	f
+rayPrint	../siteOne/js/core2.js	/^function rayPrint() {$/;"	f
+rayPrintTwoD	../game/ships.js	/^function rayPrintTwoD() {$/;"	f
+repit	../examples/repoJs/examples.js	/^function repit() {$/;"	f
+rform	../examples/repoJs/formMake.js	/^function rform() {$/;"	f
+rollDie	../siteOne/js/colonyCode.js	/^function rollDie(numOfSides) {$/;"	f
+rollThru	../edx_practice/guessing.js	/^function rollThru() {$/;"	f
+roundFired	../game/ships.js	/^function roundFired() {$/;"	f
+sampleFOR	../examples/repoJs/examples.js	/^function sampleFOR() {$/;"	f
+sampleFOR2	../examples/repoJs/examples.js	/^function sampleFOR2() {$/;"	f
+sayIt	../examples/repoJs/examples.js	/^function sayIt() {$/;"	f
+secDeg	../edx_practice/sect2.js	/^function secDeg(){$/;"	f
+setAction	../examples/js/scriptdesample.js	/^function setAction() {$/;"	f
+setQuadrant	../game/ships.js	/^function setQuadrant() {$/;"	f
+setShip	../game/ships.js	/^function setShip() {$/;"	f
+setupGame	../edx_practice/guessing.js	/^function setupGame() {$/;"	f
+showQuad	../game/ships.js	/^function showQuad(alpha) {$/;"	f
+showWhatWeTyped	../examples/html/querysel.html	/^function showWhatWeTyped() {$/;"	f
+speakName	../examples/js/scriptdesample.js	/^function speakName() {$/;"	f
+ssn	../examples/repoJs/examples.js	/^  ssn: "11-22-33-44",$/;"	p	class:student1
+startUp	../game/ships.js	/^function startUp() {$/;"	f
+startup	../examples/html/one.html	/^    function startup(){$/;"	f
+statusWin	../game/ships.js	/^function statusWin() {$/;"	f
+student1	../examples/repoJs/examples.js	/^var student1 = {$/;"	v
+studplus	../examples/repoJs/examples.js	/^function studplus() {$/;"	f
+tellDeg	../edx_practice/sect2.js	/^function tellDeg(){$/;"	f
+toStartFx	../edx_practice/apiS.js	/^function toStartFx() {$/;"	f
+trial	../siteOne/js/colonyCode.js	/^function trial() {$/;"	f
+trim	../siteOne/js/core2.js	/^  trim: "4D SLE",$/;"	p	class:let
+turn	../siteOne/js/colonyCode.js	/^function turn() {$/;"	f
+turnNext	../edx_practice/apiS.js	/^function turnNext() {$/;"	f
+update	../examples/repoJs/examples.js	/^function update(bgColor, textColor) {$/;"	f
+value	../siteOne/js/core2.js	/^    this.value = function () {$/;"	f
+year	../siteOne/js/core2.js	/^  year: 2018,$/;"	p	class:let
