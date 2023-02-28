@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script> -->
+    <title>Audio API's</title>
+  </head>
+  <body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"
+      integrity="sha512-L6Z/YtIPQ7eU3BProP34WGU5yIRk7tNHk7vaC2dB1Vy1atz6wl9mCkTPPZ2Rn1qPr+vY2mZ9odZLdGYuaBk7dQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <button id="play">play</button>
+  </body>
+
+  <script>
+    const playBut = document.getElementById("play");
+    playBut.addEventListener("click", () => sound.play());
+
+    let sound = new Howl({
+      src: ["sound.webm", "sound.mp3"],
+      onload: build(),
+    });
+
+    function build() {
+      playBut.disabled = false;
+      console.log("audio loaded");
+    }
+  </script>
+</html>
