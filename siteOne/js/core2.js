@@ -1,3 +1,30 @@
+/*
+// Pass a function to map
+const map1 = array1.map(x => x * 2);
+*/
+
+
+//Iterations
+/*
+.forEach()
+.map()
+.filter()
+.findIndex()
+.reduce()
+*/
+
+//forEach
+function forPeaches() {
+  const fruits = ["mango", "papaya", "pineapple", "apple"];
+
+  for (let i = 0; i < fruits.length; i++) {
+    console.log("- " + fruits[i]);
+  }
+  console.log("\n\n");
+
+  fruits.forEach((i) => console.log(i));
+}
+
 function randomNumber(upperBoundNumber) {
   return Math.floor(Math.random() * upperBoundNumber) + 1;
 }
