@@ -1,6 +1,7 @@
 # Intro
 
-    The following should be a bit of Js code, expect to see a bit of refactoring here and there.
+    This repo is vanilla html, css and js, code is raw, and dirty. Pages are basic tinkering as I learnt js.
+    Refactoring may or may not occur.
 
 ## Order:
 
